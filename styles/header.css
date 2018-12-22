@@ -1,0 +1,49 @@
+p, body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.first-row {
+  background-color: cyan;
+  padding: 10px 5px;
+  display: flex;
+}
+.space {
+  display: flex;
+  margin: 0 15px;
+}
+.fa {
+  margin: 0 8px;
+}
+
+.second-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 0 25px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin: 0 10px;
+  font-size: 18px;
+}
+.logo-menu{
+  display: flex;
+  align-items: center;
+
+}
