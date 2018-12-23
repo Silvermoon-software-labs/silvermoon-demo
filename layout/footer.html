@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>
+      silver moon
+    </title>
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+<div id="contact" class="block block-inverse app-footer">
+    <div class="container">
+       <div class="row">
+         <div class="col-md-3">
+           <ul class="list-unstyled list-spaced">
+             <li class="mb-2"><h6 class="text-uppercase">Contact</h6></li>
+             <li class="text-muted">
+               admin@silvermoonsoft.com
+             </li>
+             <li class="text-muted">
+               <a target="_blank" href="https://www.linkedin.com/company/silvermoon-software-labs/">Linkedin</a>
+             </li>
+             <li class="text-muted">
+               <a target="_blank" href="#">Careers</a>
+             </li>
+           </ul>
+         </div>
+         <div class="col-md-9">
+           <h6 class="text-uppercase">Send us a Message</h6>
+           <form class="form" action="https://formspree.io/admin@silvermoonsoft.com" method="POST">
+             <div class="form-group">
+               <label for="InputEmail1">Email address</label>
+               <input type="email" name="email" class="form-input" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter your email"><br/>
+               <textarea name="message" id="contact_msg" class="form-input" aria-label="With textarea" placeholder="Enter you Message"></textarea>
+               <span id="empty_error" class="alert-danger" style="display: none;">Please fill in the form.</span>
+               <small id="helpId" class="text-muted">We will get back to you shortly.</small><br/><br/>
+               <input type="submit" id="contact_send" onClick="return empty()" name="Send" value="Send" class="btn btn-dark btn-lg btn-block">
+             </div>
+           </form>
+         </div>
+       </div>
+       <div class="row mt-5">
+         <div class="col-12 text-center">
+           <p class="text-muted">Copyright &copy; 2018 by Silvermoon Software Labs</p>
+         </div>
+       </div>
+    </div>
+   </div>
+   </body>
+   </html>
