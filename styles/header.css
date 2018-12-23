@@ -42,12 +42,23 @@ a {
 .menu ul li {
   margin: 0 10px;
   font-size: 18px;
+  transition: transform .2s;
+  text-transform: capitalize;
 }
+.menu ul li:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+
+}
+
 .logo-menu{
   display: flex;
   align-items: center;
 
 }
+
+/* logo animation start  */
 #f1_container {
   position: relative;
   margin: 0 auto;
@@ -85,3 +96,4 @@ a {
   cursor: pointer;
   line-height:2;
 }
+/* logo animation end */
